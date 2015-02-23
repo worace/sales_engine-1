@@ -3,7 +3,7 @@ require "ruby_prof"
 require "pry"
 
 class SalesEngineProfiler
-  TIMEOUT_THRESHOLD = 180 #seconds
+  TIMEOUT_THRESHOLD = 15 #seconds
   attr_reader :data_dir, :engine
   def initialize(data_dir)
     @data_dir = data_dir
