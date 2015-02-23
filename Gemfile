@@ -6,3 +6,4 @@ gem 'rake'
 gem 'minitest'
 gem "ruby-prof"
 gem 'byebug'
+gem 'pry'

@@ -1,7 +1,9 @@
 require_relative "sales_engine"
 require "ruby_prof"
+require "pry"
 
 class SalesEngineProfiler
+  TIMEOUT_THRESHOLD = 180 #seconds
   attr_reader :data_dir, :engine
   def initialize(data_dir)
     @data_dir = data_dir
@@ -18,6 +20,7 @@ class SalesEngineProfiler
 
     result = RubyProf.stop
     output_path = File.join(__dir__, "..", "tmp")
+    puts " got result #{result}"
     RubyProf::MultiPrinter.new(result).print(:path => output_path, :profile => "profile")
     File.open(File.join(output_path, "profile.dot"), "w") { |f| RubyProf::DotPrinter.new(result) }
   end
@@ -151,7 +154,7 @@ class SalesEngineProfiler
   end
 
   def time_capped(label, &block)
-    Timeout.timeout(10) do
+    Timeout.timeout(TIMEOUT_THRESHOLD) do
       yield block
     end
   rescue Timeout::Error
