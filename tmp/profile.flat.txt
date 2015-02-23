@@ -1,509 +1,412 @@
-Thread ID: 70338910280680
-Fiber ID: 70338923391860
-Total: 282.443742
+Thread ID: 70218185628640
+Fiber ID: 70218219343000
+Total: 69.692338
 Sort by: self_time
 
  %self      total      self      wait     child     calls  name
- 15.78     97.569    44.580     0.000    52.989  4913386   CSV::Row#field 
-  6.63     32.495    18.739     0.000    13.757  4913386   Array#assoc 
-  5.90    148.649    16.669     0.000   131.980   723135  *Kernel#loop 
-  4.87     13.758    13.758     0.000     0.000 14337196   Symbol#== 
-  3.88     10.953    10.953     0.000     0.000  4916942   String#=~ 
-  3.35      9.473     9.473     0.000     0.000  9833347   Kernel#is_a? 
-  2.60      7.334     7.334     0.000     0.000  4919793   String#[] 
-  2.24      6.331     6.331     0.000     0.000  4913390   Array#[] 
-  2.14      6.058     6.058     0.000     0.000  6359401   Kernel#nil? 
-  1.92     38.191     5.423     0.000    32.768   722568   CSV::Row#initialize 
-  1.85      5.228     5.228     0.000     0.000  4914479   Array#reverse 
-  1.85    281.720     5.217     0.000   276.504      189   CSV#each 
-  1.84    159.275     5.198     0.000   154.077   723135  *CSV#shift 
-  1.80      5.098     5.098     0.000     0.000   722946   String#sub! 
-  1.74     74.395     4.906     0.000    69.489   722935  *CSV#parse_headers 
-  1.65      4.664     4.664     0.000     0.000  4916560   Array#last 
-  1.46      4.118     4.118     0.000     0.000   722936   String#split 
-  1.15     27.350     3.260     0.000    24.090   722935   CSV#convert_fields 
-  1.11      3.144     3.144     0.000     0.000   722568   Array#zip 
-  0.95      2.675     2.675     0.000     0.000   723324   IO#gets 
-  0.79      2.243     2.243     0.000     0.000   722385   Entry#initialize 
-  0.76     22.324     2.145     0.000    20.179   722935   Enumerator#with_index 
-  0.70      2.679     1.989     0.000     0.690   723135   CSV#header_row? 
-  0.34      0.970     0.970     0.000     0.000   723535   Array#initialize 
-  0.28      0.802     0.802     0.000     0.000   723408   Kernel#class 
-  0.05      0.156     0.155     0.000     0.001      385   Array#select 
-  0.03      0.120     0.081     0.000     0.039       34   <Module::Marshal>#dump 
-  0.01      0.040     0.040     0.000     0.000    40660   Kernel#respond_to_missing? 
-  0.01      0.027     0.027     0.000     0.000       34   <Module::Marshal>#load 
-  0.01      0.019     0.019     0.000     0.000     4926   String#gsub 
-  0.01      0.045     0.017     0.000     0.028     2274   Proc#[] 
-  0.01      0.015     0.015     0.000     0.000     6810   String#encode 
-  0.00      0.047     0.013     0.000     0.034      189   CSV#init_separators 
-  0.00      0.144     0.012     0.000     0.132      189   CSV#initialize 
-  0.00      0.009     0.009     0.000     0.000      962   Regexp#initialize 
-  0.00      0.009     0.009     0.000     0.000      189   File#initialize 
-  0.00      0.026     0.008     0.000     0.018      378   CSV#init_converters 
-  0.00      0.008     0.008     0.000     0.000     9091   String#to_s 
-  0.00      0.007     0.007     0.000     0.000     3107   Regexp#=== 
-  0.00      0.037     0.006     0.000     0.031     1512   CSV#encode_str 
-  0.00      0.005     0.005     0.000     0.000     3024   Hash#delete 
-  0.00      0.005     0.005     0.000     0.000     3591   Encoding#name 
-  0.00      0.046     0.005     0.000     0.042      189   CSV#init_parsers 
-  0.00      0.005     0.005     0.000     0.000     1516   Array#join 
-  0.00    282.427     0.004     0.000   282.422  7086002  *Array#each 
-  0.00      0.004     0.004     0.000     0.000     2274   String#to_sym 
-  0.00      0.041     0.004     0.000     0.037      945   CSV#encode_re 
-  0.00      0.162     0.004     0.000     0.158      189   <Class::CSV>#open 
-  0.00      0.004     0.004     0.000     0.000      378   Hash#initialize_copy 
-  0.00      0.004     0.004     0.000     0.000       12  *Kernel#require_relative 
-  0.00      0.003     0.003     0.000     0.000      777   String#gsub! 
-  0.00      0.003     0.003     0.000     0.000     2279   String#downcase 
-  0.00      0.010     0.003     0.000     0.006       26  *Kernel#require 
-  0.00      0.003     0.003     0.000     0.000       17   Module#public_instance_methods 
-  0.00    282.008     0.003     0.000   282.006      189   GenericRepo#create_items 
-  0.00    282.395     0.003     0.000   282.392      300   Minitest::Test#capture_exceptions 
-  0.00      0.003     0.003     0.000     0.000      383   String#sub 
-  0.00      0.004     0.002     0.000     0.002      571   Array#include? 
-  0.00      0.002     0.002     0.000     0.000     2274   Proc#arity 
-  0.00      0.004     0.002     0.000     0.001      189   CSV#add_converter 
-  0.00      0.019     0.002     0.000     0.016      189   CSV#init_headers 
-  0.00      0.002     0.002     0.000     0.000       68   Regexp#match 
-  0.00      0.002     0.002     0.000     0.000       88   IO#write 
-  0.00      0.006     0.002     0.000     0.005      378   Hash#merge 
-  0.00      0.002     0.002     0.000     0.000     1020   Symbol#to_s 
-  0.00      0.002     0.002     0.000     0.000     1142   Module#=== 
-  0.00      0.002     0.002     0.000     0.000      378   Kernel#instance_variable_set 
-  0.00      0.002     0.002     0.000     0.000      470   Kernel#lambda 
-  0.00      0.001     0.001     0.000     0.000      379   Kernel#method 
-  0.00    282.016     0.001     0.000   282.015  2169958  *Class#new 
-  0.00      0.001     0.001     0.000     0.000     1374   Array#first 
-  0.00      0.001     0.001     0.000     0.000      378   IO#rewind 
-  0.00      0.001     0.001     0.000     0.000     1000   NilClass#nil? 
-  0.00      0.004     0.001     0.000     0.003       17   <Class::Date>#parse 
-  0.00      0.001     0.001     0.000     0.000      767   String#* 
-  0.00      0.005     0.001     0.000     0.003      378   CSV#escape_re 
-  0.00      0.002     0.001     0.000     0.001      189   CSV#raw_encoding 
-  0.00    282.010     0.001     0.000   282.008      189   GenericRepo#initialize 
-  0.00      0.002     0.001     0.000     0.001      189   CSV#init_comments 
-  0.00      0.005     0.001     0.000     0.004      380   Kernel#initialize_dup 
-  0.00      0.001     0.001     0.000     0.000      760   String#count 
-  0.00      0.005     0.001     0.000     0.004      189   CSV#header_convert 
-  0.00    282.398     0.001     0.000   282.397       75   Minitest::Test#time_it 
-  0.00      0.002     0.001     0.000     0.001      189   CSV#rewind 
-  0.00      0.001     0.001     0.000     0.000      184   Kernel#trap 
-  0.00      0.001     0.001     0.000     0.000      756   Module#== 
-  0.00    182.878     0.001     0.000   182.877       24   SalesEngine#startup 
-  0.00      0.002     0.001     0.000     0.001      107   Minitest::Assertions#assert_equal 
-  0.00      0.009     0.001     0.000     0.009      189   <Class::IO>#open 
-  0.00      0.001     0.001     0.000     0.000      801   BasicObject#== 
-  0.00    281.722     0.001     0.000   281.721      191   Enumerable#map 
-  0.00    282.402     0.001     0.000   282.401       75   Minitest::Test#with_info_handler 
-  0.00      0.001     0.001     0.000     0.000      227   Time#initialize 
-  0.00      0.001     0.001     0.000     0.000      189   IO#pos 
-  0.00      0.002     0.001     0.000     0.001      227   <Class::Time>#now 
-  0.00      0.010     0.001     0.000     0.009       76   Hash#each 
-  0.00      0.001     0.001     0.000     0.000       87   Minitest::PrideLOL#pride 
-  0.00      0.005     0.001     0.000     0.004       75   Minitest::ProgressReporter#record 
-  0.00      0.001     0.001     0.000     0.000      144   Minitest::Assertions#assert 
-  0.00      0.005     0.001     0.000     0.005      189   Method#call 
-  0.00    282.404     0.001     0.000   282.403       75   <Module::Minitest>#run_one_method 
-  0.00      0.001     0.001     0.000     0.000      225   Minitest::Runnable#failure 
-  0.00      0.001     0.001     0.000     0.000      191   String#== 
-  0.00      0.001     0.001     0.000     0.000      406   Kernel#block_given? 
-  0.00      0.001     0.001     0.000     0.000        1   Range#each 
-  0.00      0.004     0.001     0.000     0.004      189   CSV::Row#headers 
-  0.00      0.015     0.001     0.000     0.015      201   SalesFinder#find_transactions_by_invoice_id 
-  0.00      0.003     0.001     0.000     0.003       75   Minitest::PrideIO#print 
-  0.00      0.009     0.001     0.000     0.008      213   Enumerable#each_with_index 
-  0.00      0.002     0.001     0.000     0.001       75   Minitest::StatisticsReporter#record 
-  0.00      0.158     0.001     0.000     0.157       34   SalesIntelligence#find_successful_invoices_by_merch_id 
-  0.00      0.001     0.001     0.000     0.000      189   Numeric#nonzero? 
-  0.00      0.001     0.001     0.000     0.000       75   Minitest::Runnable#initialize 
-  0.00    282.402     0.001     0.000   282.402       75   Minitest::Test#run 
-  0.00      0.015     0.001     0.000     0.014      201   TransactionRepository#find_all_by_invoice_id 
-  0.00      0.000     0.000     0.000     0.000      192   Kernel#respond_to? 
-  0.00      0.001     0.000     0.000     0.001      194   Enumerable#any? 
-  0.00    282.412     0.000     0.000   282.411       75   <Class::Minitest::Runnable>#run_one_method 
-  0.00    282.428     0.000     0.000   282.428       17   <Class::Minitest::Runnable>#run 
-  0.00      0.001     0.000     0.000     0.000      107   Minitest::Assertions#message 
-  0.00      0.000     0.000     0.000     0.000      189   Kernel#instance_variable_get 
-  0.00      0.000     0.000     0.000     0.000      189   String#end_with? 
-  0.00      0.000     0.000     0.000     0.000      190   IO#external_encoding 
-  0.00      0.000     0.000     0.000     0.000      269   Fixnum#+ 
-  0.00      0.000     0.000     0.000     0.000      107   Kernel#proc 
-  0.00      0.000     0.000     0.000     0.000      189   Fixnum#zero? 
-  0.00      0.081     0.000     0.000     0.081      109   SalesFinder#find_invoice_items_by_invoice_id 
-  0.00      0.001     0.000     0.000     0.000       76   Time#- 
-  0.00      0.134     0.000     0.000     0.134       21   Enumerable#sort_by 
-  0.00      0.001     0.000     0.000     0.000       75   Minitest::Test#passed? 
-  0.00      0.000     0.000     0.000     0.000      189   Array#pop 
-  0.00      0.000     0.000     0.000     0.000      189   IO#internal_encoding 
-  0.00      0.081     0.000     0.000     0.080      109   InvoiceItemRepository#find_all_by_invoice_id 
-  0.00      0.001     0.000     0.000     0.000       75   Minitest::Test#result_code 
-  0.00      0.000     0.000     0.000     0.000       87   Kernel#rand 
-  0.00      0.002     0.000     0.000     0.002       75   IO#print 
-  0.00      0.007     0.000     0.000     0.007       75   Minitest::CompositeReporter#record 
-  0.00      0.000     0.000     0.000     0.000       66   OptionParser::List#search 
-  0.00      0.004     0.000     0.000     0.004       76   Enumerable#group_by 
-  0.00      0.002     0.000     0.000     0.002       36   SalesIntelligence#group_invoices_by_customer_per_merchant 
-  0.00      0.001     0.000     0.000     0.000       75   Minitest::Test#skipped? 
-  0.00      0.000     0.000     0.000     0.000       75   Minitest::Runnable#name 
-  0.00      0.000     0.000     0.000     0.000       75   Minitest::Runnable#name= 
-  0.00    282.412     0.000     0.000   282.412       92  *<Class::Minitest::Runnable>#on_signal 
-  0.00      0.000     0.000     0.000     0.000      171   String#to_i 
-  0.00      0.000     0.000     0.000     0.000       76   Numeric#quo 
-  0.00      0.000     0.000     0.000     0.000       94   Fixnum#to_s 
-  0.00      0.000     0.000     0.000     0.000      252   Fixnum#* 
-  0.00      0.008     0.000     0.000     0.008       37   SalesIntelligence#analyze_success_fail_of_customer_by_invoice 
-  0.00      0.015     0.000     0.000     0.015       17   <Class::Minitest::Test>#runnable_methods 
-  0.00      0.014     0.000     0.000     0.013       17   <Class::Minitest::Runnable>#methods_matching 
-  0.00    282.444     0.000     0.000   282.444        3   Global#[No method] 
-  0.00      0.000     0.000     0.000     0.000       75   Minitest::Test::LifecycleHooks#before_setup 
-  0.00      0.000     0.000     0.000     0.000      178   Fixnum#<=> 
-  0.00      0.007     0.000     0.000     0.007       37   SalesFinder#find_invoices_by_merch_id 
-  0.00      0.000     0.000     0.000     0.000       66   Hash#fetch 
-  0.00      0.000     0.000     0.000     0.000        5   <Class::File>#expand_path 
-  0.00      0.000     0.000     0.000     0.000       75   Minitest::Test::LifecycleHooks#after_setup 
-  0.00      0.103     0.000     0.000     0.102       22   SalesIntelligence#find_successful_invoice_items_by_merch_id_per_item_id 
-  0.00    282.429     0.000     0.000   282.428  2170372  *Array#map 
-  0.00      0.001     0.000     0.000     0.000       23   Array#reverse_each 
-  0.00      0.001     0.000     0.000     0.001       37   Enumerator#each_with_index 
-  0.00      0.001     0.000     0.000     0.000       40   Enumerable#reduce 
-  0.00      0.028     0.000     0.000     0.027       27   GenericRepo#find_one_by_id 
-  0.00      0.000     0.000     0.000     0.000       76   Fixnum#fdiv 
-  0.00      0.007     0.000     0.000     0.007       37   InvoiceRepository#find_all_by_merchant_id 
-  0.00    282.413     0.000     0.000   282.412       17   <Class::Minitest::Runnable>#with_info_handler 
-  0.00    182.460     0.000     0.000   182.460       13   SalesEngineTest#setup 
-  0.00      0.000     0.000     0.000     0.000       83   Module#method_added 
-  0.00      0.000     0.000     0.000     0.000       75   Minitest::Test::LifecycleHooks#teardown 
-  0.00      0.000     0.000     0.000     0.000       17   Date#strftime 
-  0.00      0.000     0.000     0.000     0.000       76   Fixnum#- 
-  0.00      0.001     0.000     0.000     0.001        8   SalesIntelligence#add_revenue_of_successful_invoices 
-  0.00      0.000     0.000     0.000     0.000       34   MatchData#begin 
-  0.00      0.004     0.000     0.000     0.004       34   Enumerable#flat_map 
-  0.00      0.418     0.000     0.000     0.418       11   SalesEngineBITest#setup 
-  0.00      0.001     0.000     0.000     0.001       21   OptionParser#search 
-  0.00      0.004     0.000     0.000     0.003       33   SalesIntelligence#find_invoice_items_from_successful_invoices 
-  0.00      0.000     0.000     0.000     0.000      126   <Module::Math>#sin 
-  0.00      0.027     0.000     0.000     0.027       27   Enumerable#find 
-  0.00      0.000     0.000     0.000     0.000        6   BigDecimal#to_digits 
-  0.00      0.000     0.000     0.000     0.000       75   Minitest::Test::LifecycleHooks#after_teardown 
-  0.00      0.003     0.000     0.000     0.003        1   OptionParser#initialize 
-  0.00      0.000     0.000     0.000     0.000       24   SalesEngine#initialize 
-  0.00      0.000     0.000     0.000     0.000        3   Kernel#srand 
-  0.00      0.000     0.000     0.000     0.000       20   IO#set_encoding 
-  0.00      0.000     0.000     0.000     0.000      126   Float#+ 
-  0.00      0.000     0.000     0.000     0.000       75   Minitest::Test::LifecycleHooks#before_teardown 
-  0.00      0.000     0.000     0.000     0.000       17   Array#sort 
-  0.00      0.000     0.000     0.000     0.000       12   GenericRepo#random 
-  0.00      0.002     0.000     0.000     0.002        5   OptionParser#make_switch 
-  0.00      0.000     0.000     0.000     0.000       17   Enumerable#find_all 
-  0.00      0.000     0.000     0.000     0.000       26   Symbol#to_proc 
-  0.00      0.000     0.000     0.000     0.000       93   Kernel#hash 
-  0.00      0.000     0.000     0.000     0.000      126   Float#to_i 
-  0.00      0.198     0.000     0.000     0.198        7   MerchantRepositoryTest#setup 
-  0.00      2.312     0.000     0.000     2.312        7   CustomerRepositoryTest#setup 
-  0.00      0.000     0.000     0.000     0.000        8   Float#to_s 
-  0.00      9.877     0.000     0.000     9.877       10   ItemRepositoryTest#setup 
-  0.00      0.000     0.000     0.000     0.000       14   Hash#invert 
-  0.00      0.000     0.000     0.000     0.000       34   <Class::Minitest::Test>#test_order 
-  0.00      0.000     0.000     0.000     0.000        3   BigDecimal#-@ 
-  0.00      0.000     0.000     0.000     0.000        9   OptionParser::Switch#initialize 
-  0.00      0.000     0.000     0.000     0.000       31   Fixnum#-@ 
-  0.00      0.052     0.000     0.000     0.052       11   SalesIntelligence#find_revenue_by_item 
-  0.00      0.000     0.000     0.000     0.000       45   Kernel#=== 
-  0.00      0.000     0.000     0.000     0.000        7   Array#delete_if 
-  0.00      0.010     0.000     0.000     0.010       18   Enumerable#grep 
-  0.00      0.044     0.000     0.000     0.043        8   Merchant#revenue 
-  0.00      0.000     0.000     0.000     0.000       34   String#[]= 
-  0.00      0.000     0.000     0.000     0.000        7   OptionParser::List#update 
-  0.00      0.001     0.000     0.000     0.001       22   OptionParser#visit 
-  0.00      0.051     0.000     0.000     0.051       11   SalesIntelligence#find_qty_by_item 
-  0.00      0.000     0.000     0.000     0.000        8   BigDecimal#initialize 
-  0.00      0.000     0.000     0.000     0.000        5   Proc#call 
-  0.00      0.000     0.000     0.000     0.000        1   CustomerRepositoryTest#test_the_first_few_objects_exist_with_certain_info 
-  0.00     11.590     0.000     0.000    11.590        7   InvoiceRepositoryTest#setup 
-  0.00      0.000     0.000     0.000     0.000       21   Hash#[] 
-  0.00      0.000     0.000     0.000     0.000       11   Array#count 
-  0.00      0.000     0.000     0.000     0.000        6   BigDecimal#split 
-  0.00      0.000     0.000     0.000     0.000        9   Minitest::PrideIO#puts 
-  0.00      0.000     0.000     0.000     0.000        1   Module#attr_reader 
-  0.00     60.091     0.000     0.000    60.091        7   InvoiceItemRepositoryTest#setup 
-  0.00      0.055     0.000     0.000     0.055        1   SalesEngineTest#test_invoice_finds_its_transaction_and_invoice_items 
-  0.00      0.002     0.000     0.000     0.002        5   OptionParser#define 
-  0.00      0.000     0.000     0.000     0.000       45   Symbol#=== 
-  0.00     15.066     0.000     0.000    15.066        7   TransactionRepositoryTest#setup 
-  0.00      0.000     0.000     0.000     0.000       34   MatchData#end 
-  0.00      0.016     0.000     0.000     0.016        1   SalesEngineTest#test_invoice_item_finds_its_invoice_and_item 
-  0.00      0.001     0.000     0.000     0.001        8   SalesIntelligence#exception_to_handle_missing_invoices 
-  0.00    282.434     0.000     0.000   282.434        1   <Module::Minitest>#run 
-  0.00      0.003     0.000     0.000     0.003        1   <Module::Minitest>#process_args 
-  0.00      0.001     0.000     0.000     0.001        1   Minitest::SummaryReporter#report 
-  0.00      0.000     0.000     0.000     0.000       17   Fixnum#div 
-  0.00      0.000     0.000     0.000     0.000        1   SalesEngineTest#test_it_queries_the_repos 
-  0.00      0.000     0.000     0.000     0.000        4   <Class::Minitest::Runnable>#inherited 
-  0.00      0.019     0.000     0.000     0.019        4   SalesIntelligence#find_revenue_by_date_per_merchant 
-  0.00      0.000     0.000     0.000     0.000        9   Array#map! 
-  0.00      0.000     0.000     0.000     0.000        9   IO#puts 
-  0.00      0.024     0.000     0.000     0.024        4   SalesIntelligence#find_revenue_per_merchant 
-  0.00      0.000     0.000     0.000     0.000        2   String#% 
-  0.00      0.052     0.000     0.000     0.052        1   SalesEngineBITest#test_it_finds_top_grossing_items 
-  0.00      0.000     0.000     0.000     0.000        2   Thread::Queue#<< 
-  0.00      0.000     0.000     0.000     0.000        1   SalesEngineTest#test_invoice_finds_its_customer_and_merchant 
-  0.00      0.000     0.000     0.000     0.000       42   Float#/ 
-  0.00      0.000     0.000     0.000     0.000        4   Minitest::Assertions#refute 
-  0.00      0.000     0.000     0.000     0.000        7   Hash#update 
-  0.00      0.000     0.000     0.000     0.000        2   Thread#join 
-  0.00      0.001     0.000     0.000     0.001        1   <Module::Minitest>#plugin_pride_init 
-  0.00      0.029     0.000     0.000     0.029        6   GenericRepo#all 
-  0.00      0.000     0.000     0.000     0.000        1   SalesEngineTest#test_it_initializes_repos 
-  0.00      0.000     0.000     0.000     0.000        1   MerchantTest#test_it_initializes_with_values 
-  0.00      0.001     0.000     0.000     0.001        1   CustomerRepositoryTest#test_it_finds_by_id 
-  0.00      0.000     0.000     0.000     0.000        1   InvoiceItemTest#test_it_initializes_with_values 
-  0.00      0.006     0.000     0.000     0.006        3   InvoiceItem#item 
-  0.00      0.000     0.000     0.000     0.000        7   OptionParser::List#append 
-  0.00      0.000     0.000     0.000     0.000        1   Minitest::StatisticsReporter#report 
-  0.00      0.000     0.000     0.000     0.000        1   Minitest::SummaryReporter#aggregated_results 
-  0.00      0.012     0.000     0.000     0.012        1   SalesEngineBITest#test_it_finds_top_selling_merchants_by_product 
-  0.00      0.001     0.000     0.000     0.001        1   InvoiceItemRepositoryTest#test_it_finds_by_id 
-  0.00      0.001     0.000     0.000     0.001        1   MerchantRepositoryTest#test_it_finds_by_id 
-  0.00      0.000     0.000     0.000     0.000        1   InvoiceRepositoryTest#test_the_first_few_objects_exist_with_certain_info 
-  0.00      0.000     0.000     0.000     0.000        2   BigDecimal#+ 
-  0.00      0.001     0.000     0.000     0.001        1   InvoiceRepositoryTest#test_it_finds_by_id 
-  0.00      0.018     0.000     0.000     0.018        1   SalesEngineBITest#test_it_finds_x_top_merchants_by_revenue 
-  0.00      0.024     0.000     0.000     0.024        4   MerchantRepository#find_revenue_per_merchant 
-  0.00      0.000     0.000     0.000     0.000        1   MerchantRepositoryTest#test_the_first_few_objects_exist_with_certain_info 
-  0.00      0.000     0.000     0.000     0.000        1   ItemRepositoryTest#test_the_first_few_objects_exist_with_certain_info 
-  0.00      0.000     0.000     0.000     0.000        1   Minitest::SummaryReporter#start 
-  0.00      0.000     0.000     0.000     0.000       14   Hash#[]= 
-  0.00    282.429     0.000     0.000   282.429        1   <Module::Minitest>#__run 
-  0.00      0.000     0.000     0.000     0.000        1   InvoiceItemRepositoryTest#test_the_first_few_objects_exist_with_certain_info 
-  0.00      0.000     0.000     0.000     0.000        1   TransactionTest#test_it_initializes_with_values 
-  0.00      0.004     0.000     0.000     0.004        1   ItemRepositoryTest#test_it_finds_by_id 
-  0.00      0.000     0.000     0.000     0.000        1   SalesEngineTest#test_item_finds_its_merchant 
-  0.00      0.006     0.000     0.000     0.006        1   SalesEngineBITest#test_it_finds_revenue_of_merchant 
-  0.00      0.000     0.000     0.000     0.000       16   Hash#keys 
-  0.00      0.008     0.000     0.000     0.008        3   SalesFinder#find_invoices_by_cust_id 
-  0.00      0.051     0.000     0.000     0.051        1   SalesEngineBITest#test_it_finds_top_selling_items_by_qty 
-  0.00      0.000     0.000     0.000     0.000        3   SalesIntelligence#add_items_of_successful_invoices 
-  0.00      0.012     0.000     0.000     0.012        3   SalesIntelligence#find_item_total 
-  0.00      0.000     0.000     0.000     0.000        1   Minitest::SummaryReporter#summary 
-  0.00      0.038     0.000     0.000     0.038        1   SalesEngineTest#test_invoice_finds_its_items 
-  0.00      0.000     0.000     0.000     0.000        1   InvoiceTest#test_it_initializes_with_values 
-  0.00      0.008     0.000     0.000     0.008        1   SalesEngineTest#test_customer_finds_its_invoices 
-  0.00      0.009     0.000     0.000     0.009        3   ItemRepository#find_all_by_merchant_id 
-  0.00      0.000     0.000     0.000     0.000        3   BigDecimal#== 
-  0.00      0.006     0.000     0.000     0.006        1   SalesEngineBITest#test_it_finds_revenue_of_merchant_by_date 
-  0.00      0.000     0.000     0.000     0.000        1   CustomerRepositoryTest#test_it_finds_one_random 
-  0.00      0.000     0.000     0.000     0.000        1   InvoiceRepositoryTest#test_it_creates_4843_objects 
-  0.00      0.000     0.000     0.000     0.000        4   <Class::Proc>#new 
-  0.00      0.000     0.000     0.000     0.000        2   OptionParser::List#initialize 
-  0.00      0.002     0.000     0.000     0.002        5   OptionParser#on 
-  0.00      0.000     0.000     0.000     0.000        2   Kernel#dup 
-  0.00      0.010     0.000     0.000     0.009        1   SalesEngineBITest#test_it_finds_the_most_popular_day 
-  0.00      0.008     0.000     0.000     0.008        3   InvoiceRepository#find_all_by_customer_id 
-  0.00      0.000     0.000     0.000     0.000       10   Fixnum#/ 
-  0.00      0.006     0.000     0.000     0.006        1   SalesEngineTest#test_merchant_finds_its_invoices 
-  0.00      0.014     0.000     0.000     0.014        1   SalesEngineBITest#test_it_finds_revenue_by_date_across_merchants 
-  0.00      0.033     0.000     0.000     0.033        1   SalesEngineTest#test_item_finds_its_invoice_items 
-  0.00      0.001     0.000     0.000     0.001        1   SalesEngineBITest#test_it_finds_transactions_from_merchant 
-  0.00      0.015     0.000     0.000     0.015        2   SalesFinder#find_invoice_by_invoice_id 
-  0.00      0.000     0.000     0.000     0.000        1   Minitest::StatisticsReporter#initialize 
-  0.00      0.019     0.000     0.000     0.019        4   MerchantRepository#find_revenue_by_date_per_merchant 
-  0.00      0.000     0.000     0.000     0.000        2   Minitest::PrideIO#method_missing 
-  0.00      0.000     0.000     0.000     0.000        6   BigDecimal#frac 
-  0.00      0.000     0.000     0.000     0.000        2   <Class::OptionParser::Switch>#guess 
-  0.00      0.001     0.000     0.000     0.001        1   SalesEngineTest#test_transaction_finds_its_invoice 
-  0.00      0.009     0.000     0.000     0.009        1   SalesIntelligence#find_best_day 
-  0.00      0.000     0.000     0.000     0.000        1   CustomerTest#test_it_initializes_with_values 
-  0.00      0.001     0.000     0.000     0.000        1   SalesEngineBITest#test_it_finds_the_favorite_merchant 
-  0.00      0.006     0.000     0.000     0.006        3   InvoiceItemRepository#find_item 
-  0.00      0.000     0.000     0.000     0.000        7   Class#inherited 
-  0.00      0.000     0.000     0.000     0.000        5   <Class::Minitest::Runnable>#runnables 
-  0.00      0.044     0.000     0.000     0.044        1   Invoice#invoice_items 
-  0.00      0.000     0.000     0.000     0.000        6   BigDecimal#nan? 
-  0.00      0.000     0.000     0.000     0.000        1   ItemTest#test_it_initializes_with_values 
-  0.00      0.006     0.000     0.000     0.006        3   SalesFinder#find_item_by_item_id 
-  0.00      0.000     0.000     0.000     0.000        1   OptionParser#permute! 
-  0.00      0.000     0.000     0.000     0.000        1   TransactionRepositoryTest#test_it_finds_by_id 
-  0.00      0.000     0.000     0.000     0.000        3   <Object::Object>#[] 
-  0.00      0.000     0.000     0.000     0.000        1   InvoiceItemRepositoryTest#test_it_finds_one_random 
-  0.00      0.038     0.000     0.000     0.038        1   SalesFinder#find_items_by_invoice_id 
-  0.00      0.003     0.000     0.000     0.003        1   SalesEngineTest#test_merchant_finds_its_items 
-  0.00      0.000     0.000     0.000     0.000        7   OptionParser#top 
-  0.00      0.052     0.000     0.000     0.052        1   ItemRepository#most_revenue 
-  0.00      0.000     0.000     0.000     0.000        1   MerchantRepositoryTest#test_it_finds_one_random 
-  0.00      0.001     0.000     0.000     0.001        1   Minitest::CompositeReporter#report 
-  0.00      0.000     0.000     0.000     0.000        3   Mutex_m#initialize 
-  0.00      0.000     0.000     0.000     0.000        2   Array#== 
-  0.00      0.000     0.000     0.000     0.000        1   MerchantRepositoryTest#test_it_finds_all 
-  0.00      0.000     0.000     0.000     0.000        7   Enumerable#inject 
-  0.00      0.000     0.000     0.000     0.000        1   MerchantRepositoryTest#test_it_returns_the_same_calling_object 
-  0.00      0.000     0.000     0.000     0.000        1   SalesIntelligence#find_favorite_merchant 
-  0.00      0.000     0.000     0.000     0.000        6   Minitest::Test::LifecycleHooks#setup 
-  0.00      0.000     0.000     0.000     0.000        1   Minitest::SummaryReporter#statistics 
-  0.00      0.000     0.000     0.000     0.000        1   CustomerRepositoryTest#test_it_returns_the_same_calling_object 
-  0.00      0.012     0.000     0.000     0.012        3   MerchantRepository#find_item_total 
-  0.00      0.000     0.000     0.000     0.000        2   SalesFinder#find_merchant_by_merch_id 
-  0.00      0.000     0.000     0.000     0.000        1   ItemRepositoryTest#test_it_creates_2383_objects 
-  0.00      0.003     0.000     0.000     0.003        1   ItemRepositoryTest#test_it_finds_all 
-  0.00      0.000     0.000     0.000     0.000        2   Module#include 
-  0.00      0.000     0.000     0.000     0.000       12   Array#push 
-  0.00      0.001     0.000     0.000     0.001        1   CustomerRepositoryTest#test_it_finds_all 
-  0.00      0.000     0.000     0.000     0.000        3   Enumerable#max_by 
-  0.00      0.012     0.000     0.000     0.012        3   Merchant#item_total 
-  0.00      0.012     0.000     0.000     0.012        1   MerchantRepository#most_items 
-  0.00      0.000     0.000     0.000     0.000        1   InvoiceRepositoryTest#test_it_finds_one_random 
-  0.00      0.000     0.000     0.000     0.000        6   BigDecimal#to_i 
-  0.00      0.000     0.000     0.000     0.000        1   InvoiceRepositoryTest#test_it_returns_the_same_calling_object 
-  0.00      0.000     0.000     0.000     0.000        3   Kernel#BigDecimal 
-  0.00      0.000     0.000     0.000     0.000        1   ItemRepositoryTest#test_it_returns_the_same_calling_object 
-  0.00      0.000     0.000     0.000     0.000        3   Mutex_m#mu_initialize 
-  0.00      0.000     0.000     0.000     0.000        1   TransactionRepositoryTest#test_it_creates_5595_objects 
-  0.00      0.000     0.000     0.000     0.000        2   Minitest::Reporter#initialize 
-  0.00      0.000     0.000     0.000     0.000        1   OptionParser#add_officious 
-  0.00      0.000     0.000     0.000     0.000        4   Hash#initialize 
-  0.00      0.006     0.000     0.000     0.006        1   TransactionRepositoryTest#test_it_finds_all 
-  0.00      0.000     0.000     0.000     0.000        1   SalesEngineTest#test_it_exists 
-  0.00      0.011     0.000     0.000     0.011        1   Invoice#transactions 
-  0.00      0.044     0.000     0.000     0.044        1   InvoiceRepository#find_invoice_items 
-  0.00      0.000     0.000     0.000     0.000        1   TransactionRepositoryTest#test_the_first_few_objects_exist_with_certain_info 
-  0.00      0.051     0.000     0.000     0.051        1   ItemRepository#most_items 
-  0.00      0.000     0.000     0.000     0.000        1   SalesEngineBITest#test_it_finds_customer_transactions 
-  0.00      0.000     0.000     0.000     0.000        1   MerchantRepositoryTest#test_it_creates_100_objects 
-  0.00      0.000     0.000     0.000     0.000        1   Minitest::Parallel::Executor#shutdown 
-  0.00      0.000     0.000     0.000     0.000        1   InvoiceItemRepositoryTest#test_it_creates_21687_objects 
-  0.00      0.009     0.000     0.000     0.009        1   Item#best_day 
-  0.00      0.000     0.000     0.000     0.000        1   SalesIntelligence#show_success_fail_of_merchant_by_invoice_per_merchant 
-  0.00      0.003     0.000     0.000     0.003        1   ItemRepositoryTest#test_it_finds_all_by_merchant_id 
-  0.00      0.003     0.000     0.000     0.003        1   ItemRepositoryTest#test_it_returns_empty_array 
-  0.00      0.000     0.000     0.000     0.000        1   InvoiceItemRepositoryTest#test_it_returns_the_same_calling_object 
-  0.00      0.000     0.000     0.000     0.000        1   Customer#favorite_merchant 
-  0.00      0.000     0.000     0.000     0.000        1   SalesIntelligence#group_invoices_by_merchant_per_customer 
-  0.00      0.014     0.000     0.000     0.014        1   MerchantRepository#revenue 
-  0.00      0.014     0.000     0.000     0.014        1   InvoiceItemRepository#find_invoice 
-  0.00      0.000     0.000     0.000     0.000        1   InvoiceItemRepositoryTest#test_it_exists 
-  0.00      0.000     0.000     0.000     0.000        1   ItemRepositoryTest#test_it_exists 
-  0.00      0.000     0.000     0.000     0.000        1   Minitest::CompositeReporter#start 
-  0.00      0.001     0.000     0.000     0.001        1   Minitest::PrideLOL#initialize 
-  0.00      0.000     0.000     0.000     0.000        3   Mutex#initialize 
-  0.00      0.000     0.000     0.000     0.000        1   TransactionRepositoryTest#test_it_returns_the_same_calling_object 
+ 33.33     23.408    23.225     0.000     0.182     1896   Array#select 
+ 29.51     28.751    20.564     0.001     8.186       22   <Module::Marshal>#dump 
+ 11.74      8.183     8.183     0.000     0.000 12898033   Kernel#respond_to_missing? 
+ 10.64      7.422     7.417     0.000     0.005       20   <Module::Marshal>#load 
+  3.14     51.159     2.191     0.000    48.968   353498  *Array#each 
+  2.13      3.212     1.484     0.000     1.728   242813   CSV::Row#field 
+  1.31     11.202     0.911     0.000    10.290   108324  *Array#map 
+  0.86      1.031     0.599     0.000     0.432   242813   Array#assoc 
+  0.76      4.662     0.528     0.000     4.135    35732  *Kernel#loop 
+  0.62      0.432     0.432     0.000     0.000   708334   Symbol#== 
+  0.47      0.326     0.326     0.000     0.000   242927   String#=~ 
+  0.47      0.325     0.325     0.000     0.000   485836   Kernel#is_a? 
+  0.39      0.270     0.270     0.000     0.000   345686   Fixnum#to_s 
+  0.36      0.469     0.252     0.000     0.217    23304   BigDecimal#to_digits 
+  0.32      0.220     0.220     0.000     0.000   243073   String#[] 
+  0.30      0.212     0.212     0.000     0.000   242813   Array#[] 
+  0.29      0.201     0.201     0.000     0.000   314271   Kernel#nil? 
+  0.25      0.177     0.177     0.000     0.000   242849   Array#reverse 
+  0.25      1.249     0.176     0.000     1.073    35714   CSV::Row#initialize 
+  0.24      5.013     0.169     0.000     4.844    35732  *CSV#shift 
+  0.24      0.164     0.164     0.000     0.000   242971   Array#last 
+  0.23      8.990     0.163     0.000     8.827        6   CSV#each 
+  0.23      2.422     0.157     0.000     2.265    35726  *CSV#parse_headers 
+  0.20      0.138     0.138     0.000     0.000    35726   String#sub! 
+  0.15      0.897     0.105     0.000     0.792    35726   CSV#convert_fields 
+  0.15      0.105     0.105     0.000     0.000    35726   String#split 
+  0.13      0.091     0.091     0.000     0.000    35714   Array#zip 
+  0.11      0.076     0.076     0.000     0.000    35738   IO#gets 
+  0.10      0.071     0.071     0.000     0.000    35713   Entry#initialize 
+  0.10      0.745     0.070     0.000     0.676    35726   Enumerator#with_index 
+  0.09      0.088     0.065     0.000     0.023    35732   CSV#header_row? 
+  0.09      0.063     0.063     0.000     0.000    23289   BigDecimal#split 
+  0.07      0.052     0.052     0.000     0.000    83670   String#to_s 
+  0.05      0.033     0.033     0.000     0.000    23289   BigDecimal#frac 
+  0.04      0.028     0.028     0.000     0.000    35744   Array#initialize 
+  0.04      0.028     0.028     0.000     0.000    35738   Kernel#class 
+  0.03      0.021     0.021     0.000     0.000    23327   String#* 
+  0.03      0.018     0.018     0.000     0.000    11652   Kernel#BigDecimal 
+  0.02      0.017     0.017     0.000     0.000    23289   BigDecimal#to_i 
+  0.02      0.016     0.016     0.000     0.000    23304   BigDecimal#nan? 
+  0.02      0.016     0.016     0.000     0.000    23301   Fixnum#-@ 
+  0.02      0.015     0.015     0.000     0.000    23304   BigDecimal#zero? 
+  0.02      0.015     0.015     0.000     0.000    23304   BigDecimal#infinite? 
+  0.02      0.012     0.012     0.000     0.000    11652   String#insert 
+  0.01      0.018     0.007     0.000     0.011      285   <Class::Date>#parse 
+  0.01      0.006     0.006     0.000     0.000     1138   Regexp#match 
+  0.01      7.348     0.005     0.000     7.344       45   Hash#each 
+  0.01      7.343     0.004     0.000     7.339     2008   Enumerable#each_with_index 
+  0.01      5.965     0.004     0.000     5.961     1082   SalesFinder#find_transactions_by_invoice_id 
+  0.01      0.010     0.004     0.000     0.006     1074   Enumerable#any? 
+  0.00      5.961     0.003     0.000     5.958     1082   TransactionRepository#find_all_by_invoice_id 
+  0.00      0.005     0.003     0.000     0.002      200   <Class::Time>#_load 
+  0.00     16.502     0.003     0.000    16.499      672   InvoiceItemRepository#find_all_by_invoice_id 
+  0.00     16.504     0.003     0.000    16.502      672   SalesFinder#find_invoice_items_by_invoice_id 
+  0.00      0.003     0.002     0.000     0.000      323   String#gsub! 
+  0.00      0.003     0.002     0.000     0.001      220   Time#_dump 
+  0.00      0.002     0.002     0.000     0.000     2411   String#to_i 
+  0.00      0.001     0.001     0.000     0.000     1870   Fixnum#divmod 
+  0.00      0.001     0.001     0.000     0.000       96   IO#write 
+  0.00      0.001     0.001     0.000     0.000      570   MatchData#begin 
+  0.00      0.001     0.001     0.000     0.000       10   <Class::Thread>#start 
+  0.00      0.001     0.001     0.000     0.000       10   Kernel#caller 
+  0.00      0.001     0.001     0.000     0.000     1484   Fixnum#+ 
+  0.00      0.001     0.001     0.000     0.000      283   Date#strftime 
+  0.00      0.001     0.001     0.000     0.000     1112   Fixnum#<=> 
+  0.00      0.001     0.001     0.000     0.000      570   String#[]= 
+  0.00      0.001     0.001     0.000     0.000      236   Regexp#=~ 
+  0.00      0.001     0.001     0.000     0.001      231   Comparable#== 
+  0.00      1.034     0.001     0.000     1.033      133   Enumerable#find 
+  0.00     41.662     0.001     0.000    41.661       22   SalesIntelligence#find_successful_invoices_by_merch_id 
+  0.00      0.003     0.000     0.000     0.003       90   Enumerable#reduce 
+  0.00      0.000     0.000     0.000     0.000      570   MatchData#end 
+  0.00      0.001     0.000     0.000     0.000      231   Date#<=> 
+  0.00      0.001     0.000     0.000     0.001        5   Array#reject! 
+  0.00      0.000     0.000     0.000     0.000      283   Hash#[] 
+  0.00      0.001     0.000     0.000     0.000       72   Proc#[] 
+  0.00      0.000     0.000     0.000     0.000      156   String#gsub 
+  0.00      0.006     0.000     0.000     0.005       51   Enumerable#group_by 
+  0.00      0.000     0.000     0.000     0.000      285   Fixnum#div 
+  0.00      0.000     0.000     0.000     0.000       45   Kernel#rand 
+  0.00      0.384     0.000     0.000     0.384       93   GenericRepo#find_one_by_id 
+  0.00      0.001     0.000     0.000     0.001        6   CSV#init_separators 
+  0.00      0.000     0.000     0.000     0.000      216   String#encode 
+  0.00      0.003     0.000     0.000     0.002        6   CSV#initialize 
+  0.00      0.001     0.000     0.000     0.001       48   IO#puts 
+  0.00      0.001     0.000     0.000     0.000       45   GenericRepo#random 
+  0.00      8.996     0.000     0.000     8.996   107238  *Class#new 
+  0.00      0.000     0.000     0.000     0.000        6   File#initialize 
+  0.00      0.002     0.000     0.000     0.001       48   Kernel#puts 
+  0.00      0.001     0.000     0.000     0.001        5   Timeout::ExitException#exception 
+  0.00      0.542     0.000     0.000     0.542        5   SalesEngineProfiler#invoice_methods 
+  0.00      0.000     0.000     0.000     0.000      200   Fixnum#* 
+  0.00      0.123     0.000     0.000     0.123       24   SalesIntelligence#group_invoices_by_customer_per_merchant 
+  0.00      5.964     0.000     0.000     5.964       23   SalesIntelligence#analyze_success_fail_of_customer_by_invoice 
+  0.00      0.000     0.000     0.000     0.000       30   Regexp#initialize 
+  0.00      0.001     0.000     0.000     0.000       12   CSV#init_converters 
+  0.00     58.453     0.000     0.000    58.453       10  *<Module::Kernel>#catch 
+  0.00      0.264     0.000     0.000     0.263       37   GenericRepo#find_by_id 
+  0.00      0.698     0.000     0.000     0.697        5   SalesEngineProfiler#item_methods 
+  0.00      0.000     0.000     0.000     0.000       10   Thread#join 
+  0.00      0.003     0.000     0.000     0.003       25   Enumerator#each_with_index 
+  0.00      0.137     0.000     0.000     0.137        5   SalesEngineProfiler#transaction_methods 
+  0.00      0.049     0.000     0.000     0.049        5   SalesEngineProfiler#merchant_methods 
+  0.00      4.730     0.000     0.000     4.730        9   SalesIntelligence#add_revenue_of_successful_invoices 
+  0.00      0.151     0.000     0.000     0.150       29   InvoiceRepository#find_all_by_merchant_id 
+  0.00      0.000     0.000     0.000     0.000       20   Exception#initialize 
+  0.00      0.001     0.000     0.000     0.001       48   CSV#encode_str 
+  0.00      0.000     0.000     0.000     0.000       66   Array#include? 
+  0.00      0.151     0.000     0.000     0.151       29   SalesFinder#find_invoices_by_merch_id 
+  0.00      0.006     0.000     0.000     0.006       20   GenericRepo#find_by_name 
+  0.00      0.755     0.000     0.000     0.755        5   SalesEngineProfiler#invoice_item_methods 
+  0.00      0.104     0.000     0.000     0.104       35   InvoiceItem#item 
+  0.00      2.223     0.000     0.000     2.223        6   Integer#times 
+  0.00      0.104     0.000     0.000     0.104       35   SalesFinder#find_item_by_item_id 
+  0.00      0.000     0.000     0.000     0.000        5   InvoiceRepository#create 
+  0.00      0.000     0.000     0.000     0.000        9   BigDecimal#initialize 
+  0.00      0.001     0.000     0.000     0.001        6   CSV#init_parsers 
+  0.00      0.042     0.000     0.000     0.042        5   SalesEngineProfiler#customer_methods 
+  0.00      0.001     0.000     0.000     0.001        5   SalesEngineProfiler#creates_invoice 
+  0.00      0.003     0.000     0.000     0.003        6   <Class::CSV>#open 
+  0.00      0.001     0.000     0.000     0.001       30   CSV#encode_re 
+  0.00      0.000     0.000     0.000     0.000       96   Hash#delete 
+  0.00      0.104     0.000     0.000     0.104       35   InvoiceItemRepository#find_item 
+  0.00      0.000     0.000     0.000     0.000        5   BasicObject#method_missing 
+  0.00      0.000     0.000     0.000     0.000      114   Encoding#name 
+  0.00      0.000     0.000     0.000     0.000       48   Array#join 
+  0.00      0.000     0.000     0.000     0.000       12   Hash#initialize_copy 
+  0.00      0.000     0.000     0.000     0.000       10   Thread#kill 
   0.00      0.000     0.000     0.000     0.000        1   Hash#select 
-  0.00      0.018     0.000     0.000     0.018        1   MerchantRepository#most_revenue 
-  0.00      0.000     0.000     0.000     0.000        1   Integer#times 
-  0.00      0.000     0.000     0.000     0.000        1   Minitest::CompositeReporter#passed? 
-  0.00      0.000     0.000     0.000     0.000        1   CustomerRepositoryTest#test_it_exists 
-  0.00      0.006     0.000     0.000     0.006        1   Merchant#invoices 
-  0.00      0.008     0.000     0.000     0.008        1   Customer#invoices 
-  0.00      0.011     0.000     0.000     0.011        1   InvoiceRepository#find_transactions 
-  0.00      0.000     0.000     0.000     0.000        1   SalesFinder#find_customer_by_cust_id 
-  0.00      0.003     0.000     0.000     0.003        1   ItemRepositoryTest#test_it_finds_by_merchant_id 
-  0.00      0.003     0.000     0.000     0.003        1   ItemRepository#find_one_by_merchant_id 
-  0.00      0.000     0.000     0.000     0.000        1   ItemRepositoryTest#test_it_finds_one_random 
-  0.00      0.000     0.000     0.000     0.000        3   OptionParser#notwice 
-  0.00      0.000     0.000     0.000     0.000        3   <Class::OptionParser::Switch::NoArgument>#pattern 
-  0.00      0.000     0.000     0.000     0.000        7   BasicObject#initialize 
-  0.00      0.000     0.000     0.000     0.000        1   ItemRepository#find_merchant 
-  0.00      0.014     0.000     0.000     0.014        1   InvoiceItem#invoice 
-  0.00      0.038     0.000     0.000     0.038        1   Invoice#items 
-  0.00      0.000     0.000     0.000     0.000        1   CustomerRepository#find_favorite_merchant 
-  0.00      0.009     0.000     0.000     0.009        1   ItemRepository#find_best_day 
-  0.00      0.000     0.000     0.000     0.000        6   BigDecimal#zero? 
-  0.00      0.000     0.000     0.000     0.000        1   InvoiceRepositoryTest#test_it_exists 
-  0.00      0.000     0.000     0.000     0.000        1   Invoice#customer 
-  0.00      0.016     0.000     0.000     0.016        1   InvoiceItemRepositoryTest#test_it_finds_all 
-  0.00      0.000     0.000     0.000     0.000        6   BigDecimal#infinite? 
-  0.00      0.001     0.000     0.000     0.001        2   SalesIntelligence#show_success_fail_of_customer_by_invoice_per_merchant 
-  0.00      0.000     0.000     0.000     0.000        1   CustomerRepositoryTest#test_it_creates_1000_objects 
-  0.00      0.008     0.000     0.000     0.008        1   CustomerRepository#find_invoices 
-  0.00      0.000     0.000     0.000     0.000        1   Invoice#merchant 
-  0.00      0.000     0.000     0.000     0.000        1   InvoiceRepository#find_customer 
-  0.00      0.000     0.000     0.000     0.000        2   Module#append_features 
-  0.00      0.000     0.000     0.000     0.000        1   Bignum#% 
-  0.00      0.000     0.000     0.000     0.000        2   OptionParser#separator 
-  0.00      0.000     0.000     0.000     0.000        1   OptionParser#parse_in_order 
-  0.00      0.000     0.000     0.000     0.000        1   TransactionRepositoryTest#test_it_finds_one_random 
-  0.00      0.038     0.000     0.000     0.038        1   InvoiceRepository#find_items 
-  0.00      0.000     0.000     0.000     0.000        1   MerchantRepositoryTest#test_it_exists 
-  0.00      0.006     0.000     0.000     0.006        1   MerchantRepository#find_invoices 
-  0.00      0.003     0.000     0.000     0.003        1   InvoiceRepositoryTest#test_it_finds_all 
-  0.00      0.000     0.000     0.000     0.000        2   Array#initialize_copy 
-  0.00      0.000     0.000     0.000     0.000        1   Merchant#customers_with_pending_invoices 
-  0.00      0.000     0.000     0.000     0.000        1   Minitest::StatisticsReporter#passed? 
-  0.00      0.000     0.000     0.000     0.000        1   SalesIntelligence#find_transactions_by_cust_id 
-  0.00      0.000     0.000     0.000     0.000        1   Customer#transactions 
-  0.00      0.000     0.000     0.000     0.000        1   Item#merchant 
-  0.00      0.000     0.000     0.000     0.000        1   Minitest::StatisticsReporter#start 
-  0.00      0.000     0.000     0.000     0.000        1   TransactionRepositoryTest#test_it_exists 
-  0.00      0.000     0.000     0.000     0.000        1   <Module::Minitest>#after_run 
-  0.00      0.000     0.000     0.000     0.000        1   Array#sample 
-  0.00      0.000     0.000     0.000     0.000        1   Array#shuffle 
-  0.00      0.000     0.000     0.000     0.000        1   OptionParser#parse! 
-  0.00      0.000     0.000     0.000     0.000        1   Minitest::CompositeReporter#initialize 
-  0.00      0.001     0.000     0.000     0.001        1   Transaction#invoice 
-  0.00      0.033     0.000     0.000     0.033        1   ItemRepository#find_invoice_items 
-  0.00      0.001     0.000     0.000     0.001        1   TransactionRepository#find_invoice 
-  0.00      0.003     0.000     0.000     0.003        1   Merchant#items 
-  0.00      0.000     0.000     0.000     0.000        1   SalesIntelligence#find_customers_with_pending_invoices 
-  0.00      0.000     0.000     0.000     0.000        1   Merchant#favorite_customer 
-  0.00      0.000     0.000     0.000     0.000        1   SalesIntelligence#find_favorite_customer 
+  0.00      0.000     0.000     0.000     0.000       53   Enumerable#inject 
+  0.00     14.782     0.000     0.000    14.782       18   Enumerable#flat_map 
+  0.00     25.280     0.000     0.000    25.280       11  *Merchant#revenue 
+  0.00      0.000     0.000     0.000     0.000       54   Fixnum#== 
+  0.00      0.000     0.000     0.000     0.000        4   Float#to_s 
+  0.00      0.000     0.000     0.000     0.000       10   Kernel#proc 
+  0.00      0.000     0.000     0.000     0.000       25   <Class::Thread>#current 
+  0.00      8.995     0.000     0.000     8.995        6   GenericRepo#create_items 
+  0.00      0.000     0.000     0.000     0.000       72   String#to_sym 
+  0.00      0.000     0.000     0.000     0.000       12   String#sub 
+  0.00     19.130     0.000     0.000    19.130        6   SalesIntelligence#find_successful_invoice_items_by_merch_id_per_item_id 
+  0.00      0.000     0.000     0.000     0.000       72   String#downcase 
+  0.00      0.000     0.000     0.000     0.000       22   Kernel#instance_variable_set 
+  0.00      0.000     0.000     0.000     0.000       30   Symbol#to_s 
+  0.00      0.160     0.000     0.000     0.160        5   SalesFinder#find_items_by_invoice_id 
+  0.00      0.000     0.000     0.000     0.000       15   BigDecimal#to_s 
+  0.00     14.777     0.000     0.000    14.777       17   SalesIntelligence#find_invoice_items_from_successful_invoices 
+  0.00      0.000     0.000     0.000     0.000       20   Entry#name 
+  0.00     39.165     0.000     0.000    39.165        4   Enumerable#sort_by 
+  0.00     11.848     0.000     0.000    11.848        6   SalesIntelligence#find_revenue_by_date_per_merchant 
+  0.00     69.692     0.000     0.000    69.692        1   SalesEngineProfiler#profiled 
+  0.00      0.000     0.000     0.000     0.000       40   Module#=== 
+  0.00      0.000     0.000     0.000     0.000       72   Proc#arity 
+  0.00     58.474     0.000     0.000    58.474        1   SalesEngineProfiler#business_intel 
+  0.00      0.004     0.000     0.000     0.004       10   Invoice#customer 
+  0.00      0.000     0.000     0.000     0.000        5   Range#each 
+  0.00      4.730     0.000     0.000     4.730        9   SalesIntelligence#exception_to_handle_missing_invoices 
+  0.00      8.995     0.000     0.000     8.995        1   SalesEngine#startup 
+  0.00      0.239     0.000     0.000     0.238       10   Invoice#invoice_items 
+  0.00      0.000     0.000     0.000     0.000        6   CSV#add_converter 
+  0.00      0.000     0.000     0.000     0.000        6   CSV#init_headers 
+  0.00      0.000     0.000     0.000     0.000       12   Hash#merge 
+  0.00      0.000     0.000     0.000     0.000        5   Customer#first_name 
+  0.00      0.000     0.000     0.000     0.000       10   Time#initialize 
+  0.00      0.000     0.000     0.000     0.000       34   BasicObject#== 
+  0.00      0.000     0.000     0.000     0.000        5   Kernel#raise 
+  0.00      0.000     0.000     0.000     0.000        5   Item#merchant 
+  0.00      0.035     0.000     0.000     0.035        5   TransactionRepository#find_all_by_result 
+  0.00      0.004     0.000     0.000     0.004       10   InvoiceRepository#find_customer 
+  0.00      0.000     0.000     0.000     0.000       38   String#count 
+  0.00      0.000     0.000     0.000     0.000       12   Kernel#method 
+  0.00      0.000     0.000     0.000     0.000       16   Fixnum#zero? 
+  0.00      0.238     0.000     0.000     0.238       10   InvoiceRepository#find_invoice_items 
+  0.00      0.016     0.000     0.000     0.016        5   ItemRepository#find_all_by_merchant_id 
+  0.00      0.000     0.000     0.000     0.000        5   InvoiceRepository#create_invoice_items 
+  0.00      0.034     0.000     0.000     0.034        7   SalesFinder#find_invoices_by_cust_id 
+  0.00      0.004     0.000     0.000     0.004       10   SalesFinder#find_customer_by_cust_id 
+  0.00      0.160     0.000     0.000     0.160        5   Invoice#items 
+  0.00      0.023     0.000     0.000     0.023        5   InvoiceRepository#find_all_by_status 
+  0.00      0.013     0.000     0.000     0.013        5   Transaction#invoice 
+  0.00     13.431     0.000     0.000    13.431        5   MerchantRepository#find_revenue_per_merchant 
+  0.00     11.848     0.000     0.000    11.848        6   MerchantRepository#find_revenue_by_date_per_merchant 
+  0.00      0.000     0.000     0.000     0.000        6   <Class::IO>#open 
+  0.00      0.250     0.000     0.000     0.250        5   InvoiceItemRepository#find_all_by_quantity 
+  0.00      0.000     0.000     0.000     0.000        6   CSV#raw_encoding 
+  0.00      0.000     0.000     0.000     0.000        5   NoMethodError#initialize 
+  0.00     13.431     0.000     0.000    13.431        5   SalesIntelligence#find_revenue_per_merchant 
+  0.00      0.000     0.000     0.000     0.000       30   NilClass#nil? 
+  0.00      0.000     0.000     0.000     0.000       12   IO#rewind 
+  0.00      0.000     0.000     0.000     0.000        5   Kernel#throw 
+  0.00      0.000     0.000     0.000     0.000       10   Exception#backtrace 
+  0.00      0.000     0.000     0.000     0.000       10   <Class::Time>#now 
+  0.00      0.000     0.000     0.000     0.000       12   Kernel#lambda 
+  0.00      0.000     0.000     0.000     0.000        6   CSV#init_comments 
+  0.00      0.000     0.000     0.000     0.000        5   Symbol#to_proc 
+  0.00      0.000     0.000     0.000     0.000       36   Array#first 
+  0.00      8.990     0.000     0.000     8.990       11   Enumerable#map 
+  0.00      0.013     0.000     0.000     0.013        5   TransactionRepository#find_invoice 
+  0.00      8.995     0.000     0.000     8.995        6   GenericRepo#initialize 
+  0.00      0.030     0.000     0.000     0.030        5   Merchant#invoices 
+  0.00      0.016     0.000     0.000     0.016        5   MerchantRepository#find_items 
+  0.00      0.000     0.000     0.000     0.000        3   BigDecimal#-@ 
+  0.00      0.000     0.000     0.000     0.000       12   Kernel#initialize_dup 
+  0.00      0.000     0.000     0.000     0.000       12   CSV#escape_re 
+  0.00      0.016     0.000     0.000     0.016        5   ItemRepository#find_all_by_name 
+  0.00      0.070     0.000     0.000     0.070        5   TransactionRepository#find_by_credit_card_number 
+  0.00      0.000     0.000     0.000     0.000        5   <Class::Exception>#exception 
+  0.00      0.000     0.000     0.000     0.000        5   NameError#initialize 
+  0.00      0.000     0.000     0.000     0.000        5   Array#sample 
+  0.00      0.130     0.000     0.000     0.130        5   Item#invoice_items 
+  0.00      0.160     0.000     0.000     0.160        5   InvoiceRepository#find_items 
+  0.00      0.016     0.000     0.000     0.016        5   Merchant#items 
+  0.00     10.002     0.000     0.000    10.002        4   SalesIntelligence#find_item_total 
+  0.00     10.002     0.000     0.000    10.002        4   MerchantRepository#find_item_total 
+  0.00      0.000     0.000     0.000     0.000       24   Module#== 
+  0.00      0.000     0.000     0.000     0.000        6   IO#pos 
+  0.00      0.002     0.000     0.000     0.002        5   CustomerRepository#find_by_last_name 
+  0.00      0.005     0.000     0.000     0.005        5   CustomerRepository#find_all_by_first_name 
+  0.00      0.012     0.000     0.000     0.012        1   CustomerRepository#find_favorite_merchant 
+  0.00      0.016     0.000     0.000     0.016        5   SalesFinder#find_items_by_merch_id 
+  0.00      0.130     0.000     0.000     0.130        5   InvoiceItemRepository#find_all_by_item_id 
+  0.00      0.000     0.000     0.000     0.000        5   SalesFinder#find_merchant_by_merch_id 
+  0.00      0.272     0.000     0.000     0.272        5   InvoiceItemRepository#find_one_by_item_id 
+  0.00      0.000     0.000     0.000     0.000       10   Kernel#freeze 
+  0.00      9.185     0.000     0.000     9.185        3   SalesIntelligence#find_revenue_by_item 
+  0.00      0.027     0.000     0.000     0.027        5   InvoiceRepository#find_transactions 
+  0.00      0.030     0.000     0.000     0.030        5   MerchantRepository#find_invoices 
+  0.00      0.000     0.000     0.000     0.000        6   CSV#header_convert 
+  0.00      0.130     0.000     0.000     0.130        5   ItemRepository#find_invoice_items 
+  0.00      0.013     0.000     0.000     0.013        5   SalesFinder#find_invoice_by_invoice_id 
+  0.00     58.453     0.000     0.000    58.453       10  *<Class::Timeout::ExitException>#catch 
+  0.00      3.451     0.000     0.000     3.451        3   SalesIntelligence#add_items_of_successful_invoices 
+  0.00      9.945     0.000     0.000     9.945        3   SalesIntelligence#find_qty_by_item 
+  0.00      0.025     0.000     0.000     0.025        5   InvoiceRepository#find_by_status 
+  0.00     10.002     0.000     0.000    10.002        1   MerchantRepository#most_items 
+  0.00      0.130     0.000     0.000     0.130        5   SalesFinder#find_invoice_items_by_item_id 
+  0.00      0.024     0.000     0.000     0.024        5   Customer#invoices 
+  0.00     58.453     0.000     0.000    58.453       10  *Timeout#timeout 
+  0.00      0.000     0.000     0.000     0.000        3   Enumerable#max_by 
+  0.00     10.002     0.000     0.000    10.002        4   Merchant#item_total 
+  0.00      0.006     0.000     0.000     0.006        1   SalesIntelligence#group_invoices_by_merchant_per_customer 
+  0.00      0.034     0.000     0.000     0.034        7   InvoiceRepository#find_all_by_customer_id 
+  0.00      3.433     0.000     0.000     3.433        1   SalesIntelligence#find_best_day 
+  0.00      0.000     0.000     0.000     0.000        5   ItemRepository#find_merchant 
+  0.00      0.027     0.000     0.000     0.027        5   Invoice#transactions 
+  0.00      0.024     0.000     0.000     0.024        5   CustomerRepository#find_invoices 
+  0.00      9.185     0.000     0.000     9.185        1   ItemRepository#most_revenue 
+  0.00      3.433     0.000     0.000     3.433        1   Item#best_day 
+  0.00      0.000     0.000     0.000     0.000        6   CSV#rewind 
+  0.00      0.012     0.000     0.000     0.012        1   Customer#favorite_merchant 
+  0.00      0.001     0.000     0.000     0.000        5   GenericRepo#find_all_by_name 
+  0.00      9.945     0.000     0.000     9.945        1   ItemRepository#most_items 
+  0.00     10.033     0.000     0.000    10.033        1   MerchantRepository#most_revenue 
+  0.00      0.548     0.000     0.000     0.548        5   ItemRepository#find_by_unit_price 
+  0.00      0.000     0.000     0.000     0.000        6   Array#pop 
+  0.00      0.272     0.000     0.000     0.272        5   InvoiceItemRepository#find_by_item_id 
+  0.00      0.000     0.000     0.000     0.000        6   String#== 
+  0.00      0.000     0.000     0.000     0.000        6   Numeric#nonzero? 
+  0.00      0.599     0.000     0.000     0.598        2   SalesIntelligence#show_success_fail_of_customer_by_invoice_per_merchant 
+  0.00      0.267     0.000     0.000     0.267        1   Merchant#customers_with_pending_invoices 
+  0.00      0.012     0.000     0.000     0.012        1   SalesIntelligence#find_favorite_merchant 
+  0.00      0.000     0.000     0.000     0.000        6   Method#call 
+  0.00      0.000     0.000     0.000     0.000        5   Enumerable#each_with_object 
+  0.00      0.000     0.000     0.000     0.000        5   Exception#set_backtrace 
+  0.00      0.332     0.000     0.000     0.332        1   SalesIntelligence#find_favorite_customer 
+  0.00      0.000     0.000     0.000     0.000       12   Kernel#block_given? 
+  0.00      0.000     0.000     0.000     0.000        6   Kernel#respond_to? 
+  0.00      0.000     0.000     0.000     0.000        6   CSV::Row#headers 
+  0.00      0.000     0.000     0.000     0.000        5   Exception#exception 
+  0.00      0.000     0.000     0.000     0.000        5   Hash#initialize 
+  0.00      9.877     0.000     0.000     9.877        1   MerchantRepository#revenue 
+  0.00      0.000     0.000     0.000     0.000        4   Fixnum#/ 
+  0.00      0.267     0.000     0.000     0.267        1   SalesIntelligence#find_customers_with_pending_invoices 
+  0.00     58.453     0.000     0.000    58.453       10  *SalesEngineProfiler#time_capped 
+  0.00      0.000     0.000     0.000     0.000        6   String#end_with? 
+  0.00      0.332     0.000     0.000     0.332        1   Merchant#favorite_customer 
+  0.00      0.012     0.000     0.000     0.012        1   SalesIntelligence#show_success_fail_of_merchant_by_invoice_per_merchant 
+  0.00      0.000     0.000     0.000     0.000        6   Kernel#instance_variable_get 
+  0.00      0.000     0.000     0.000     0.000        6   IO#external_encoding 
+  0.00      0.267     0.000     0.000     0.267        1   MerchantRepository#find_customers_with_pending_invoices 
+  0.00      3.433     0.000     0.000     3.433        1   ItemRepository#find_best_day 
+  0.00      0.009     0.000     0.000     0.009        1   CustomerRepository#find_transactions_by_cust_id 
+  0.00      0.009     0.000     0.000     0.009        1   SalesIntelligence#find_transactions_by_cust_id 
+  0.00      0.000     0.000     0.000     0.000        1   <Class::Regexp>#quote 
+  0.00      0.332     0.000     0.000     0.332        1   MerchantRepository#find_favorite_customer 
   0.00      0.003     0.000     0.000     0.003        1   SalesIntelligence#group_invoices_by_date 
-  0.00      0.000     0.000     0.000     0.000        1   InvoiceRepository#find_merchant 
-  0.00      0.003     0.000     0.000     0.003        1   SalesFinder#find_items_by_merch_id 
-  0.00      0.000     0.000     0.000     0.000        1   Array#replace 
-  0.00      0.000     0.000     0.000     0.000        1   Minitest::PrideIO#initialize 
-  0.00      0.000     0.000     0.000     0.000        1   Kernel#at_exit 
-  0.00      0.033     0.000     0.000     0.033        1   SalesFinder#find_invoice_items_by_item_id 
-  0.00      0.003     0.000     0.000     0.003        1   MerchantRepository#find_items 
-  0.00      0.000     0.000     0.000     0.000        1   MerchantRepository#find_favorite_customer 
-  0.00      0.033     0.000     0.000     0.033        1   Item#invoice_items 
-  0.00      0.033     0.000     0.000     0.033        1   InvoiceItemRepository#find_all_by_item_id 
-  0.00      0.000     0.000     0.000     0.000        1   OptionParser#base 
-  0.00      0.000     0.000     0.000     0.000        1   Enumerable#partition 
-  0.00      0.000     0.000     0.000     0.000        1   <Module::Minitest>#load_plugins 
-  0.00      0.000     0.000     0.000     0.000        1   Kernel#catch 
-  0.00      0.001     0.000     0.000     0.001        1   <Module::Minitest>#init_plugins 
-  0.00      0.000     0.000     0.000     0.000        2   Minitest::CompositeReporter#<< 
-  0.00      0.000     0.000     0.000     0.000        1   Array#reject! 
-  0.00      0.000     0.000     0.000     0.000        1   Minitest::AbstractReporter#passed? 
-  0.00      0.000     0.000     0.000     0.000        1   CustomerRepository#find_transactions_by_cust_id 
-  0.00      0.000     0.000     0.000     0.000        1   Array#delete 
-  0.00      0.000     0.000     0.000     0.000        2  *Enumerable#all? 
-  0.00      0.000     0.000     0.000     0.000        3   BigDecimal#<=> 
-  0.00      0.000     0.000     0.000     0.000        1   MerchantRepository#find_customers_with_pending_invoices 
-  0.00      0.000     0.000     0.000     0.000        1   Method#to_proc 
-  0.00      0.000     0.000     0.000     0.000        1   OptionParser#order! 
-  0.00      0.000     0.000     0.000     0.000        1   <Class::Minitest::PrideIO>#pride? 
-  0.00      0.000     0.000     0.000     0.000        1   <Object::Object>#include? 
-  0.00      0.000     0.000     0.000     0.000        1   <Module::Minitest>#plugin_pride_options 
-  0.00      0.000     0.000     0.000     0.000        2   <Class::OptionParser::Switch::NoArgument>#incompatible_argument_styles 
-  0.00      0.000     0.000     0.000     0.000        1   Minitest::AbstractReporter#report 
-  0.00      0.000     0.000     0.000     0.000        1   Enumerator#each 
-  0.00      0.000     0.000     0.000     0.000        3   Fixnum#== 
-  0.00      0.000     0.000     0.000     0.000        1   Hash#default= 
-  0.00      0.000     0.000     0.000     0.000        1   Array#- 
-  0.00      0.000     0.000     0.000     0.000        1   Integer#to_i 
-  0.00      0.000     0.000     0.000     0.000        2   String#=== 
-  0.00      0.000     0.000     0.000     0.000        1   Array#shift 
-  0.00      0.000     0.000     0.000     0.000        1   <Module::Byebug>#post_mortem? 
-  0.00      0.000     0.000     0.000     0.000        1   Minitest::AbstractReporter#start 
-  0.00      0.000     0.000     0.000     0.000        2   Module#included 
-  0.00      0.000     0.000     0.000     0.000        1   IO#sync= 
-  0.00      0.000     0.000     0.000     0.000        2   Module#>= 
-  0.00      0.000     0.000     0.000     0.000        1   Array#[]= 
+  0.00      0.000     0.000     0.000     0.000        6   IO#internal_encoding 
+  0.00      0.009     0.000     0.000     0.009        1   Customer#transactions 
+  0.00      0.000     0.000     0.000     0.000        1   Hash#keys 
+  0.00      0.000     0.000     0.000     0.000        1   SalesEngine#initialize 
 
 * indicates recursively called methods
-Thread ID: 70338916184720
-Fiber ID: 70339012966520
-Total: 0.000000
+Thread ID: 70218246326600
+Fiber ID: 70218246326180
+Total: 58.452364
 Sort by: self_time
 
  %self      total      self      wait     child     calls  name
+  0.00     58.452     0.000    48.575     9.878        1   Timeout#timeout 
+  0.00      9.877     0.000     9.877     0.000        1   Kernel#sleep 
+  0.00      0.000     0.000     0.000     0.000        1   Thread#raise 
+  0.00      0.000     0.000     0.000     0.000        1   Timeout::ExitException#exception 
+  0.00      0.000     0.000     0.000     0.000        1   <Class::Thread>#current 
 
 * indicates recursively called methods
-Thread ID: 70338916184560
-Fiber ID: 70339012966500
-Total: 0.000000
+Thread ID: 70218212478060
+Fiber ID: 70218187961640
+Total: 48.472727
 Sort by: self_time
 
  %self      total      self      wait     child     calls  name
+  0.00     48.473     0.000    38.541     9.932        1   Timeout#timeout 
+  0.00      9.932     0.000     9.932     0.000        1   Kernel#sleep 
+  0.00      0.000     0.000     0.000     0.000        1   Thread#raise 
+  0.00      0.000     0.000     0.000     0.000        1   Timeout::ExitException#exception 
+  0.00      0.000     0.000     0.000     0.000        1   <Class::Thread>#current 
+
+* indicates recursively called methods
+Thread ID: 70218246931800
+Fiber ID: 70218239619260
+Total: 38.440110
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+  0.00     38.440     0.000    28.539     9.901        1   Timeout#timeout 
+  0.00      9.901     0.000     9.901     0.000        1   Kernel#sleep 
+  0.00      0.000     0.000     0.000     0.000        1   Timeout::ExitException#exception 
+  0.00      0.000     0.000     0.000     0.000        1   Thread#raise 
+  0.00      0.000     0.000     0.000     0.000        1   <Class::Thread>#current 
+
+* indicates recursively called methods
+Thread ID: 70218287403140
+Fiber ID: 70218281007760
+Total: 28.434702
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+  0.00     28.435     0.000    25.139     3.296        1   Timeout#timeout 
+  0.00      3.296     0.000     3.296     0.000        1   Kernel#sleep 
+
+* indicates recursively called methods
+Thread ID: 70218191667020
+Fiber ID: 70218191666580
+Total: 25.138631
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+  0.00     25.139     0.000    23.167     1.972        1   Timeout#timeout 
+  0.00      1.972     0.000     1.972     0.000        1   Kernel#sleep 
+
+* indicates recursively called methods
+Thread ID: 70218287061380
+Fiber ID: 70218287061200
+Total: 23.166268
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+  0.00     23.166     0.000    22.834     0.332        1   Timeout#timeout 
+  0.00      0.332     0.000     0.332     0.000        1   Kernel#sleep 
+
+* indicates recursively called methods
+Thread ID: 70218287095460
+Fiber ID: 70218287095280
+Total: 22.833582
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+  0.00     22.834     0.000    22.567     0.267        1   Timeout#timeout 
+  0.00      0.267     0.000     0.267     0.000        1   Kernel#sleep 
+
+* indicates recursively called methods
+Thread ID: 70218287109620
+Fiber ID: 70218287109380
+Total: 22.566315
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+  0.00     22.566     0.000    13.381     9.185        1   Timeout#timeout 
+  0.00      0.000     0.000     0.000     0.000        1   Timeout::ExitException#exception 
+  0.00      0.000     0.000     0.000     0.000        1   Thread#raise 
+  0.00      9.185     0.000     9.185     0.000        1   Kernel#sleep 
+  0.00      0.000     0.000     0.000     0.000        1   <Class::Thread>#current 
+
+* indicates recursively called methods
+Thread ID: 70218245670080
+Fiber ID: 70218245785860
+Total: 13.277558
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+  0.00     13.278     0.000     3.436     9.841        1   Timeout#timeout 
+  0.00      9.841     0.000     9.841     0.000        1   Kernel#sleep 
+  0.00      0.000     0.000     0.000     0.000        1   Thread#raise 
+  0.00      0.000     0.000     0.000     0.000        1   Timeout::ExitException#exception 
+  0.00      0.000     0.000     0.000     0.000        1   <Class::Thread>#current 
+
+* indicates recursively called methods
+Thread ID: 70218286929780
+Fiber ID: 70218287076940
+Total: 3.338451
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+  0.00      3.338     0.000     0.000     3.338        1   Timeout#timeout 
+  0.00      3.338     0.000     3.338     0.000        1   Kernel#sleep 
 
 * indicates recursively called methods

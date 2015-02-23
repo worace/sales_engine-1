@@ -5,6 +5,13 @@ task :test do
   Dir.glob('./test/**/*_test.rb') { |file| require file }
 end
 
+task :benchmark do
+  require_relative "lib/sales_engine_profiler.rb"
+  data_dir = File.join(__dir__, "data")
+  prof = SalesEngineProfiler.new(data_dir)
+  prof.run
+end
+
 namespace :sanitation do
   desc "Check line lengths & whitespace with Cane"
   task :lines do
